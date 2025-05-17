@@ -30,7 +30,7 @@ function About() {
 
       <section className="extracurricular-section">
         <div className="extracurricular-grid">
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/techconnect.jpeg')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}techconnect.jpeg)` }}>
             <div className="card-overlay">
               <h3>Tech Connect Program</h3>
               <p>As the leader of the Technology Help Desk operations at Montgomery County Wheaton Senior Center, I provide tech support to the 55+ community, regularly helping 5-6 senior citizens every week. I help seniors navigate a range of devices, including cell phones, computers, and tablets. I instruct seniors one on one, enhancing their digital literacy and technological proficiency. I also create and present tailored technology classes for the 55+ community, covering topics such as online safety, streaming services, online retail, and ChatGPT.</p>
@@ -41,7 +41,7 @@ function About() {
             </div>
           </div>
 
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/graceapl.png')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}graceapl.png)` }}>
             <div className="card-overlay">
               <h3>Johns Hopkins APL Internship</h3>
               <p>I currently assist with research on applying reinforcement learning (RL) to real world challenges, including coastal defense and HVAC optimization. My work involves writing functions to assist with the training of the agent. Over the summer, I also developed a comprehensive slideshow on offline RL to teach others about the topic, deepening my own understanding. This internship has strengthened my abilities in machine learning and communicating technical ideas to others.</p>
@@ -52,7 +52,7 @@ function About() {
             </div>
           </div>
 
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/robots.JPG')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}robots.JPG)` }}>
             <div className="card-overlay">
               <h3>Blair HS Robotics Team</h3>
               <p>As a member of the Mechanics Team, I work constructing and assembling practice elements for the robot to interact with during gameplay. I also help design and build structural components for the robot to improve robot performance and team strategy. Two weeks ago, our team won a qualification competition, which was very exciting and a payoff for all the work our team put into the robot’s design and strategy.</p>
@@ -63,7 +63,7 @@ function About() {
             </div>
           </div>
 
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/violin.jpg')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}violin.jpg)` }}>
             <div className="card-overlay">
               <h3>Blair Symphonic Orchestra</h3>
               <p>I play an instrument in the school's orchestra, performing at concerts and school events. Rehearsing and playing in an ensemble has helped me improve my technical skills and collaborate with other musicians. Last month, our orchestra performed at adjudication - a judged performance - and earned straight 1 ratings, the highest possible score.</p>
@@ -74,7 +74,7 @@ function About() {
             </div>
           </div>
 
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/pit.jpg')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}pit.jpg)` }}>
             <div className="card-overlay">
               <h3>Blair Pit Orchestra</h3>
               <p>I played in the pit orchestra for two of my school's musical productions, providing live instrumentation and accompaniment. It was a fun challenge adapting to a live theatrical setting and working with the cast to bring the musical to life.</p>
@@ -85,7 +85,7 @@ function About() {
             </div>
           </div>
 
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/solidground.jpg')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}solidground.jpg)` }}>
             <div className="card-overlay">
               <h3>Blair Solid Ground Co-president</h3>
               <p> I help plan and run weekly meetings for 40+ members focused on fellowship and spiritual growth. During these meetings, I facilitate small group discussions and create a space for meaningful conversations and connections.</p>
@@ -95,7 +95,7 @@ function About() {
               <p>2022 - Present</p>
             </div>
           </div>
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/snhs.png')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}snhs.png)` }}>
             <div className="card-overlay">
               <h3>Science National Honor Society</h3>
               <p> I help run activities that promote scientific inquiry and STEM education for the school community. Recently, during STEM week at my high school, we ran a series of different activities for each day of the week to engage students. I helped run a can implosions activity, where students heated up a small amount of water in a can on a hot plate and then quickly submerged the can into cold water, causing it to collapse due to the sudden pressure change.</p>
