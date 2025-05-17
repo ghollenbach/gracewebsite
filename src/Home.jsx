@@ -24,7 +24,17 @@ function Home() {
                         <h3 className="card-title">AutoIntern</h3>
                         <p className="card-description">Find your internship faster!</p>
                         <a href="https://autointernfopl.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                            Check it out here ➡️
+                            Use it for yourself ➡️
+                        </a>
+                    </div>
+                </div>
+                <div className="projects-grid">
+                    <div className="project-card">
+                    <img src={`${import.meta.env.BASE_URL}oysterreef.jpg`} alt="Project 1" className="card-image" />
+                        <h3 className="card-title">Using AI for Coastal Defense</h3>
+                        <p className="card-description">To protect the shores</p>
+                        <a href="https://aspireshowcase.dunked.com/operationalizing-ai-deep-reinforcement-learning-for-coastal-defense-by-alexander-sleeman-grace-hollenbach-and-charles-barnhart" target="_blank" rel="noopener noreferrer" className="project-link">
+                            Read our poster here ➡️
                         </a>
                     </div>
                 </div>
