@@ -49,7 +49,7 @@
 }
 
 .blue-card .card-overlay {
-    background: rgba(11, 61, 145, 0.7); /* Blue overlay with transparency */
+    background: #018ec1; /* Blue overlay with transparency */
 }
 
 .extracurricular-card .card-text {
