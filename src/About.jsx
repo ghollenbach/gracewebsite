@@ -105,7 +105,7 @@ function About() {
               <p>2024 - Present</p>
             </div>
           </div>
-          <div className="extracurricular-card" style={{ backgroundImage: "url('/nhs.png')" }}>
+          <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}nhs.png)` }}>
             <div className="card-overlay">
               <h3>National Honor Society</h3>
               <p>I take part in service projects and activities that promote academic excellence and community involvement. Recently, we helped organize a coat drive to help provide clothing for people who need it, a great way to give back to the community. Through the NHS, I’ve had the chance to support meaningful volunteer work.</p>
