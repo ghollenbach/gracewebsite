@@ -1,4 +1,4 @@
-# Autointern Website
+# Personal Website
 This is built using react.js
 
 
