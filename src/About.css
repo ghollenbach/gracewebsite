@@ -1,4 +1,4 @@
-/* About.css */
+/* Page styles */
 .about-container {
     max-width: 1300px;
     margin: 0 auto;
@@ -18,7 +18,7 @@
 }
 
 .about-section p, .about-section ul {
-    color: #016495; /* Slightly darker text for contrast */
+    color: #016495;
     font-size: 20px;
 }
 
@@ -32,8 +32,8 @@
 /* Card Styles */
 .extracurricular-card {
     position: relative;
-    height: 415px; /* Increased card height */
-    max-width: 600px; /* Maximum width for even larger cards */
+    height: 415px;
+    max-width: 600px;
     background-size: cover;
     background-position: center top;
     border-radius: 8px;
@@ -48,21 +48,7 @@
     font-size: 20px;
 }
 
-.blue-card .card-overlay {
-    background: #018ec1; /* Blue overlay with transparency */
-}
-
-.extracurricular-card .card-text {
-    font-size: 18px;
-    position: absolute;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    transition: opacity 0.3s;
-}
-
+/* Overlay for Card */
 .extracurricular-card .card-overlay {
     position: absolute;
     inset: 0;
@@ -77,7 +63,17 @@
     transition: opacity 0.3s;
 }
 
-/* Hover Effect */
+.extracurricular-card .card-text {
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
 .extracurricular-card:hover .card-overlay {
     opacity: 1;
 }
@@ -85,4 +81,5 @@
 .extracurricular-card:hover .card-text {
     opacity: 0;
 }
+
 

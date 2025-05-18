@@ -2,51 +2,48 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
+/* Logo Style */
+.logo {
+  height: 100px;
+}
+
+/* Navigation bar */
 nav ul {
   position: fixed;
   margin: 0;
-  top: 0; /* Fixed to the top */
+  top: 0;
   list-style-type: none;
   padding: 0;
-  display: flex; /* Default: horizontal menu */
-  flex-direction: row; /* Arrange links horizontally */
-  justify-content: center; /* Align links to the right */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   background:rgb(2, 143, 185);
   color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
   width: 100%;
-  box-shadow: none; /* Remove shadow */
-  z-index: 10; /* Ensure it appears above other elements */
+  box-shadow: none;
+  z-index: 10;
 }
 
 nav ul li {
-  margin: 0 15px; /* Add horizontal spacing between links */
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
   font-size: 25px;
   color: rgb(255, 255, 255);
-  padding: 10px 15px; /* Compact padding */
+  padding: 10px 15px;
   display: block;
-  text-align: center; /* Align text to the left */
+  text-align: center;
 }
 
 nav ul li a:hover {
   background: lightgray;
   border-radius: 5px;
-}
-
-.logo {
-  height: 100px; /* Adjust the size as needed */
-}
-
-body {
-  background-color: #ffffff; /* Light blue color */
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
 }

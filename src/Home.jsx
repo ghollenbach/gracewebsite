@@ -1,5 +1,6 @@
 import './Home.css';
 import TypewriterIntro from './TypewriterIntro';
+import Footer from './Footer';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Home() {
@@ -12,6 +13,18 @@ function Home() {
                 <div className="home-buttons">
                     <Link to="/about" className="home-button">About Me</Link>
                 </div>
+                <div class="contact-links">
+                  <a href="mailto:ghollen7002@gmail.com" class="contact-item" aria-label="Send Email">
+                    <img src={`${import.meta.env.BASE_URL}email.svg`} alt="Email Icon" class="contact-icon" />
+                    <span>ghollen7002@gmail.com</span>
+                  </a>
+                  
+                  <a href="http://linkedin.com/in/grace-hollenbach" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="LinkedIn Profile">
+                    <img src={`${import.meta.env.BASE_URL}linkedin.svg`} alt="LinkedIn Icon" class="contact-icon" />
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
+
             </div>
 
             {/* Projects Section with White Background */}
@@ -27,8 +40,6 @@ function Home() {
                             Use it for yourself ➡️
                         </a>
                     </div>
-                </div>
-                <div className="projects-grid">
                     <div className="project-card">
                     <img src={`${import.meta.env.BASE_URL}oysterreef.jpg`} alt="Project 1" className="card-image" />
                         <h3 className="card-title">Using AI for Coastal Defense</h3>
@@ -39,6 +50,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
