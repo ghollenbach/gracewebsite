@@ -33,6 +33,14 @@ function Home() {
                 <h2 className="projects-title">My Projects</h2>
                 <div className="projects-grid">
                     <div className="project-card">
+                    <img src={`${import.meta.env.BASE_URL}hvacapl.jpg`} alt="Project 1" className="card-image" />
+                        <h3 className="card-title">Using AI for HVAC Systems</h3>
+                        <p className="card-description">To conserve energy</p>
+                        <a href="https://aspireshowcase.dunked.com/ai-for-efficient-hvac-control-at-apl-by-grace-hollenbach" target="_blank" rel="noopener noreferrer" className="project-link">
+                            Read my poster here ➡️
+                        </a>
+                    </div>
+                    <div className="project-card">
                     <img src={`${import.meta.env.BASE_URL}monkey.png`} alt="Project 1" className="card-image" />
                         <h3 className="card-title">AutoIntern</h3>
                         <p className="card-description">Find your internship faster!</p>

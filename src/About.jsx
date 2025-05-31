@@ -96,6 +96,16 @@ function About() {
                 <p>2022 - Present</p>
               </div>
             </div>
+            <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}blairwebsite.png)` }}>
+              <div className="card-overlay">
+                <h3>Blair Sysops</h3>
+                <p>As a memeber of Blair Sysops, I help maintain and update the Blair HS website, ensuring it runs smoothly, stays secure, and meets the needs of the community.</p>
+              </div>
+              <div className="card-text">
+                <h3>Blair Sysops</h3>
+                <p>2024 - Present</p>
+              </div>
+            </div>
             <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}snhs.png)` }}>
               <div className="card-overlay">
                 <h3>Science National Honor Society</h3>
