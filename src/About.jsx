@@ -8,7 +8,7 @@ function About() {
         <section className="about-section">
           <h2>About Me</h2>
           <p>
-              I am a senior enrolled in the highly selective Magnet (Honors) Math, Science, and Computer Science program at Blair High School, driven by a passion for learning and an interest in pursuing a career in computer science. Currently, I’m seeking a summer research internship in Computer Science. Beyond academics, I am an accomplished violinist, showcasing my dedication to the arts. In my free time, I pursue creative activities such as soap-making and various forms of digital art. 
+              I am a senior enrolled in the highly selective Magnet (Honors) Math, Science, and Computer Science program at Blair High School, driven by a passion for learning and an interest in pursuing a career in robotics engineering. Beyond academics, I am an accomplished violinist, showcasing my dedication to the arts. In my free time, I pursue creative activities such as soap-making and various forms of digital art. 
           </p>
           <h3>Skills</h3>
           <ul>
