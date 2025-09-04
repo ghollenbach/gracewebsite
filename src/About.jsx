@@ -8,20 +8,20 @@ function About() {
         <section className="about-section">
           <h2>About Me</h2>
           <p>
-              I am a junior enrolled in the highly selective Magnet (Honors) Math, Science, and Computer Science program at Blair High School, driven by a passion for learning and an interest in pursuing a career in computer science. Currently, I’m seeking a summer research internship in Computer Science. Beyond academics, I am an accomplished violinist, showcasing my dedication to the arts. In my free time, I pursue creative activities such as soap-making and various forms of digital art. 
+              I am a senior enrolled in the highly selective Magnet (Honors) Math, Science, and Computer Science program at Blair High School, driven by a passion for learning and an interest in pursuing a career in computer science. Currently, I’m seeking a summer research internship in Computer Science. Beyond academics, I am an accomplished violinist, showcasing my dedication to the arts. In my free time, I pursue creative activities such as soap-making and various forms of digital art. 
           </p>
           <h3>Skills</h3>
           <ul>
             <li><strong>Programming:</strong> Python, Java, Julia, React, HTML/CSS</li>
             <li><strong> Skills:</strong> Excel/Google Sheets, Video Editing </li>
-            <li><strong>Interests:</strong> Computer Science, AI, Robotics, Human Computer Interaction, Assitive Devices, Prosthetics</li>
+            <li><strong>Interests:</strong> Computer Science, Robotics, Human Computer Interaction, Assitive Devices, Prosthetics</li>
           </ul>
           <br></br>
           <h2>Education</h2>
           <h3>Montgomery Blair High School</h3>
           <ul>
               <li>GPA: 4.0/4.0</li>
-              <li>Relevant Coursework: AP Computer Science A, AP Calculus BC, AP Statistics, Foundations of Technology, Advanced Analysis of Algorithms, Modeling and Simulation, Future of Programming, Computational Methods, Quantum Physics</li>
+              <li>Relevant Coursework: AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics, Multivariable Calculus and Differential Equations, Origins of Math, Computer Graphics, Software Design</li>
               <p> Enrolled in the Magnet (Honors) Math, Science, and Computer Science program, a program designed to offer “accelerated, interdisciplinary courses in science, mathematics, and computer science for highly able students”. It covers all introductory sciences in the first two years of high school, allowing students to pursue higher level science and math courses. </p>
           </ul>
 
@@ -31,6 +31,17 @@ function About() {
 
         <section className="extracurricular-section">
           <div className="extracurricular-grid">
+              <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}umbc.heic)` }}>
+              <div className="card-overlay">
+                <h3>University of Maryland Baltimore County Internship</h3>
+                <p>I designed and ran 3D printing workshops for blind/low-vision students and seniors, teaching and gathering feedback to make 3D printing and engineering more accessible.</p>
+              </div>
+              <div className="card-text">
+                <h3>University of Maryland Baltimore County Internship</h3>
+                <p>June 2025 - August 2025</p>
+              </div>
+            </div>
+            
             <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}techconnect.jpeg)` }}>
               <div className="card-overlay">
                 <h3>Tech Connect Program</h3>
@@ -49,7 +60,7 @@ function About() {
               </div>
               <div className="card-text">
                 <h3>Johns Hopkins APL Internship</h3>
-                <p>June 2024 - present</p>
+                <p>June 2024 - May 2025</p>
               </div>
             </div>
 
