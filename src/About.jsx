@@ -31,7 +31,7 @@ function About() {
 
         <section className="extracurricular-section">
           <div className="extracurricular-grid">
-              <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}umbc.heic)` }}>
+              <div className="extracurricular-card" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}umbc.jpg)` }}>
               <div className="card-overlay">
                 <h3>University of Maryland Baltimore County Internship</h3>
                 <p>I designed and ran 3D printing workshops for blind/low-vision students and seniors, teaching and gathering feedback to make 3D printing and engineering more accessible.</p>
